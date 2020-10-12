@@ -42,4 +42,10 @@ class MathUtilTests {
 		assertEquals(mathUtil.multiply(6, 6), 36, "multiply(6, 6) should return 36");
 	}
 
+	@Test
+	@DisplayName("The circumference() methed given radius should return circumference of circle")
+	void circumferenceGivenRadius_Should_ReturnCircumference() {
+		assertEquals(mathUtil.circumference(4), 25.132741228718345, "circumference(4) should return 25.132741228718345");
+	}
+
 }

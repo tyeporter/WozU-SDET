@@ -18,4 +18,8 @@ public class MathUtil {
 		return a * b;
 	}
 
+	public double circumference(double radius) {
+		return Math.PI * 2 * radius;
+	}
+
 }
