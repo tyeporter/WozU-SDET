@@ -35,5 +35,11 @@ class MathUtilTests {
 	void divide_Should_ReturnQuotient() {
 		assertEquals(mathUtil.divide(42, 7), 6, "divide(42, 7) should return 6");
 	}
-	
+
+	@Test
+	@DisplayName("The multiply() methed should return product")
+	void multiply_Should_ReturnProduct() {
+		assertEquals(mathUtil.multiply(6, 6), 36, "multiply(6, 6) should return 36");
+	}
+
 }
