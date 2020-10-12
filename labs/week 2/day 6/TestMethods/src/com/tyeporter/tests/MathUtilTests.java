@@ -24,4 +24,10 @@ class MathUtilTests {
 		assertEquals(mathUtil.add(1, 2), 3, "add(1, 2) should return 3");
 	}
 
+	@Test
+	@DisplayName("The subtract() methed should return difference")
+	void subtract_Should_ReturnDifference() {
+		assertEquals(mathUtil.subtract(9, 5), 4, "subtract(9, 5) should return 4");
+	}
+
 }
