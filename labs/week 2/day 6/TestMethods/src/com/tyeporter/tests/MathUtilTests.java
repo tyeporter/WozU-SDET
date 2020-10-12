@@ -30,4 +30,10 @@ class MathUtilTests {
 		assertEquals(mathUtil.subtract(9, 5), 4, "subtract(9, 5) should return 4");
 	}
 
+	@Test
+	@DisplayName("The divide() methed should return quotient")
+	void divide_Should_ReturnQuotient() {
+		assertEquals(mathUtil.divide(42, 7), 6, "divide(42, 7) should return 6");
+	}
+	
 }
