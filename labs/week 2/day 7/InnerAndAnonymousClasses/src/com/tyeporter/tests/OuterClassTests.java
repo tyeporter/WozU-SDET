@@ -9,6 +9,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 
+@DisplayName("Outer Class Tests")
 class OuterClassTests {
 	// Properties
 	OuterClass outer;

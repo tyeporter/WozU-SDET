@@ -4,6 +4,10 @@ public class OuterClass {
     // Outer Class Properties
     private String outerString = "Hello ";
 
+    // =========================================================
+    // Nested Classes
+    // =========================================================
+    
     public class InnerClass {
         // Inner Class Properties
         private String innerString;
