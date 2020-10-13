@@ -15,7 +15,7 @@ class OuterClassTests {
 	OuterClass outer;
 	
 	// =========================================================
-	// Setup & Braakdown 
+	// Setup & Breakdown 
 	// =========================================================
 	@BeforeEach
 	void setUp() {
@@ -40,7 +40,7 @@ class OuterClassTests {
 		OuterClass.InnerClass inner;
 
 		// =========================================================
-		// Setup & Braakdown 
+		// Setup & Breakdown 
 		// =========================================================
 		@BeforeEach
 		void setUp() {

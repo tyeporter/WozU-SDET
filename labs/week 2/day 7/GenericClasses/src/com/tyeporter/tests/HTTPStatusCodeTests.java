@@ -10,7 +10,7 @@ class HTTPStatusCodeTests {
 	HTTPStatusCode<Integer, String> statusCode;
 
 	// =========================================================
-	// Setup & Braakdown 
+	// Setup & Breakdown 
 	// =========================================================
 	@BeforeEach
 	void setUp() {
