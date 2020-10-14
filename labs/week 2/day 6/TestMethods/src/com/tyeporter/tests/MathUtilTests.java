@@ -47,4 +47,9 @@ class MathUtilTests {
 		assertEquals(mathUtil.circumference(4), 25.132741228718345, "circumference(4) should return 25.132741228718345");
 	}
 
+	@Test
+	void testArithmeticException() {
+		assertThrows(ArithmeticException.class, () -> mathUtil.divide(2, 0));
+	}
+
 }
