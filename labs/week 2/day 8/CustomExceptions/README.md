@@ -1,3 +1,3 @@
 # CustomExceptions (Lab B) [10-14-2020]
 
-Create your own exceptions and test them. Add to Github
+The purpose of this project is to create custom exceptions and test them.
