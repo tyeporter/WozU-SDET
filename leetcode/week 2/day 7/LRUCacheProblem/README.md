@@ -1,4 +1,4 @@
-# LRUCacheProblem (LeetCode #146) [10-13-2020]
+# [LRUCacheProblem (LeetCode #146)](https://leetcode.com/problems/lru-cache) [10-13-2020]
 
 ## Problem
 Design a data structure that follows the constraints of a Least Recently Used (LRU) cache.
