@@ -37,7 +37,7 @@ public class DogAPIClient {
                 case RANDOM_IMAGE:
                     return Endpoints.BASE + "/breeds/image/random";
                 case BREED_IMAGES:
-                    return Endpoints.BASE + "/breed" + breed + "images";
+                    return Endpoints.BASE + "/breed/" + breed + "/images";
                 case SUB_BREEDS:
                     return Endpoints.BASE + "/breed/" + breed + "/list";
                 default:
