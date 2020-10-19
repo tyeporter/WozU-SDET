@@ -1,2 +1,5 @@
 # Ignore Mac system .DS_Store file
 .DS_Store
+
+# Ignore IntelliJ .idea folder
+.idea
