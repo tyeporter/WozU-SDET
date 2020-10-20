@@ -1,5 +1,8 @@
 # Ignore Mac system .DS_Store file
 .DS_Store
 
+# Ignore VSCode .vscode folder
+.vscode
+
 # Ignore IntelliJ .idea folder
 .idea
