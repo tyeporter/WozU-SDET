@@ -61,6 +61,6 @@
 
 - Use built-in data structures and algorithms to solve problems
   -  [Leetode #20](https://leetcode.com/problems/valid-parentheses/): Valid Parentheses
-- Don't mention that I encountered the same problem (on LeetCode) my interviewer gives me 😂 
+- Don't mention that I encountered the same problem (on LeetCode) that my interviewer gives me 😂 
 
 
