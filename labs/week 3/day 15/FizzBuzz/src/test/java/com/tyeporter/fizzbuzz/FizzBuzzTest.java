@@ -9,7 +9,6 @@ public class FizzBuzzTest {
     public void testGenerateFizzBuzz_GivenLimitOfThree_GeneratesProperString() {
     	String expected = "1\n2\nFizz";
     	String actual = FizzBuzz.generateFizzBuzz(3);
-
     	assertEquals(expected, actual);
     }
 

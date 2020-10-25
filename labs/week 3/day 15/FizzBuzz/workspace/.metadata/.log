@@ -1,0 +1,2081 @@
+!SESSION 2020-10-25 02:33:26.113 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:33:27.322
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:33:27.510
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:33:27.536
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:33:27.592
+!MESSAGE Initializing Java Language Server 0.64.0.202010221618
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:33:27.602
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:33:27.602
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.project.getSemanticTokensLegend, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:33:27.616
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:33:27.616
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:33:28.203
+!MESSAGE Default VM Install changed from  null to com.oracle.java.14.0.2.jdk-/Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:33:28.208
+!MESSAGE defaultVMInstallChanged -> force update of jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:33:28.234
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:33:28.926
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-10-25 02:33:28.997
+!MESSAGE Initialization failed 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.create(ProjectConfigurationManager.java:998)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:163)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:146)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:136)
+	at org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporter.importToWorkspace(MavenProjectImporter.java:228)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:115)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:104)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:195)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: OK
+Contains: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz overlaps the workspace location: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz/workspace
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2020-10-25 02:33:28.998
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2020-10-25 02:33:28.998
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2020-10-25 02:33:28.998
+!MESSAGE /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz overlaps the workspace location: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:33:29.055
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:33:29.076
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:33:29.087
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:33:29.091
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:33:29.091
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:33:29.760
+!MESSAGE Reconciled 0. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:33:30.384
+!MESSAGE begin problem for /FizzBuzz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:33:30.384
+!MESSAGE 1 problems reported for /FizzBuzz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:33:30.388
+!MESSAGE Validated 1. Took 225 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:37:07.158
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:37:07.192
+!MESSAGE Clearing problems for /FizzBuzz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:37:07.251
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:37:07.262
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:37:07.303
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:37:07.315
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2020-10-25 02:56:36.506 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:56:37.742
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:56:37.908
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:56:37.932
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:56:37.988
+!MESSAGE Initializing Java Language Server 0.64.0.202010221618
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:56:37.997
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:56:37.997
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.project.getSemanticTokensLegend, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:56:38.007
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:56:39.041
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-10-25 02:56:39.112
+!MESSAGE Initialization failed 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.create(ProjectConfigurationManager.java:998)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:163)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:146)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:136)
+	at org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporter.importToWorkspace(MavenProjectImporter.java:228)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:115)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:104)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:195)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: OK
+Contains: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz overlaps the workspace location: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz/workspace
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2020-10-25 02:56:39.113
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2020-10-25 02:56:39.113
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2020-10-25 02:56:39.113
+!MESSAGE /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz overlaps the workspace location: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:56:39.135
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:56:39.154
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:56:39.166
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:56:39.168
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:56:39.169
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:56:39.764
+!MESSAGE Reconciled 0. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:56:40.237
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:56:40.237
+!MESSAGE 1 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:56:40.242
+!MESSAGE Validated 1. Took 75 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:57:07.673
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 03:08:30.549
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 03:11:39.524
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 03:11:39.527
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 03:11:39.586
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 03:11:39.600
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2020-10-25 04:10:28.299 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:10:30.002
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:10:30.193
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:10:30.235
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:10:30.286
+!MESSAGE Initializing Java Language Server 0.64.0.202010250906
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:10:30.293
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:10:30.294
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.project.getSemanticTokensLegend, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:10:30.307
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:10:31.162
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-10-25 04:10:31.236
+!MESSAGE Initialization failed 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.create(ProjectConfigurationManager.java:998)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:163)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:146)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:136)
+	at org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporter.importToWorkspace(MavenProjectImporter.java:228)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:115)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:104)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:195)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: OK
+Contains: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz overlaps the workspace location: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz/workspace
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2020-10-25 04:10:31.237
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2020-10-25 04:10:31.237
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2020-10-25 04:10:31.237
+!MESSAGE /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz overlaps the workspace location: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:10:31.340
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:10:31.362
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:10:31.363
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:10:31.364
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:10:31.364
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:10:31.916
+!MESSAGE Reconciled 0. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:10:32.378
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:10:32.378
+!MESSAGE 1 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:10:32.381
+!MESSAGE Validated 1. Took 63 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:11:32.267
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:11:33.524
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:11:33.527
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:11:33.567
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:11:33.572
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2020-10-25 04:12:00.178 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:01.628
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:01.813
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:01.841
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:01.892
+!MESSAGE Initializing Java Language Server 0.64.0.202010250906
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:01.900
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:01.900
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.project.getSemanticTokensLegend, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:01.912
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:02.912
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-10-25 04:12:02.981
+!MESSAGE Initialization failed 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.create(ProjectConfigurationManager.java:998)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:163)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:146)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:136)
+	at org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporter.importToWorkspace(MavenProjectImporter.java:228)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:115)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:104)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:195)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: OK
+Contains: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz overlaps the workspace location: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz/workspace
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2020-10-25 04:12:02.982
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2020-10-25 04:12:02.982
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2020-10-25 04:12:02.982
+!MESSAGE /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz overlaps the workspace location: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:03.029
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:03.048
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:03.059
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:03.061
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:03.061
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:03.590
+!MESSAGE Reconciled 0. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:04.066
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:04.066
+!MESSAGE 1 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:04.069
+!MESSAGE Validated 1. Took 77 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:05.924
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:07.124
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:07.126
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:07.156
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:07.161
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2020-10-25 04:12:07.312 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:08.443
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:08.571
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:08.594
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:08.626
+!MESSAGE Initializing Java Language Server 0.64.0.202010250906
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:08.633
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:08.634
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.project.getSemanticTokensLegend, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:08.644
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:09.540
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-10-25 04:12:09.604
+!MESSAGE Initialization failed 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.create(ProjectConfigurationManager.java:998)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:163)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:146)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:136)
+	at org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporter.importToWorkspace(MavenProjectImporter.java:228)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:115)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:104)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:195)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: OK
+Contains: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz overlaps the workspace location: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz/workspace
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2020-10-25 04:12:09.604
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2020-10-25 04:12:09.604
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2020-10-25 04:12:09.604
+!MESSAGE /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz overlaps the workspace location: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:09.665
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:09.678
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:09.689
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:09.691
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:09.691
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:10.208
+!MESSAGE Reconciled 0. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:10.684
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:10.685
+!MESSAGE 1 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:10.689
+!MESSAGE Validated 1. Took 76 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:13.422
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:13.437
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:13.709
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:13.736
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:13.840
+!MESSAGE Reconciled 0. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:14.294
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:14.295
+!MESSAGE 2 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:14.296
+!MESSAGE Validated 1. Took 50 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:16.453
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:16.865
+!MESSAGE Reconciled 0. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:17.092
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:17.120
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:17.302
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:17.303
+!MESSAGE 1 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:17.304
+!MESSAGE Validated 1. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:20.194
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:20.522
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:20.529
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:20.829
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:20.929
+!MESSAGE Reconciled 0. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:21.057
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:21.060
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:21.151
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:21.464
+!MESSAGE Reconciled 0. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:21.911
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:21.911
+!MESSAGE 3 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:21.912
+!MESSAGE Validated 1. Took 44 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:22.438
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:22.848
+!MESSAGE Reconciled 0. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:22.957
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:22.967
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:23.367
+!MESSAGE Reconciled 0. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:23.803
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:23.803
+!MESSAGE 1 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:23.803
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:25.907
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:25.953
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:25.969
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:26.315
+!MESSAGE Reconciled 0. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:26.741
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:26.741
+!MESSAGE 1 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:26.742
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:44.002
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:44.005
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:44.041
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:44.046
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2020-10-25 04:12:44.210 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:45.285
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:45.436
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:45.463
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:45.502
+!MESSAGE Initializing Java Language Server 0.64.0.202010250906
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:45.509
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:45.510
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.project.getSemanticTokensLegend, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:45.523
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:46.431
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-10-25 04:12:46.498
+!MESSAGE Initialization failed 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.create(ProjectConfigurationManager.java:998)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:163)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:146)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:136)
+	at org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporter.importToWorkspace(MavenProjectImporter.java:228)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:115)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:104)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:195)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: OK
+Contains: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz overlaps the workspace location: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz/workspace
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2020-10-25 04:12:46.498
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2020-10-25 04:12:46.498
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2020-10-25 04:12:46.498
+!MESSAGE /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz overlaps the workspace location: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:46.537
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:46.553
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:46.565
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:46.567
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:46.567
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:47.084
+!MESSAGE Reconciled 0. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:47.560
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:47.561
+!MESSAGE 1 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:47.565
+!MESSAGE Validated 1. Took 77 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:50.734
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:50.745
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:50.769
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:51.170
+!MESSAGE Reconciled 0. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:51.222
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:51.619
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:51.619
+!MESSAGE 2 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:51.620
+!MESSAGE Validated 1. Took 47 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:53.341
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:53.346
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:53.362
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:53.754
+!MESSAGE Reconciled 0. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:54.201
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:54.201
+!MESSAGE 1 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:54.202
+!MESSAGE Validated 1. Took 41 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:56.220
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:56.224
+!MESSAGE Clearing problems for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:56.323
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:56.327
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:56.360
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:12:56.365
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2020-10-25 04:13:08.780 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:09.790
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:09.918
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:09.943
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:09.975
+!MESSAGE Initializing Java Language Server 0.64.0.202010250906
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:09.982
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:09.983
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.project.getSemanticTokensLegend, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:09.994
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:10.835
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-10-25 04:13:10.907
+!MESSAGE Initialization failed 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.create(ProjectConfigurationManager.java:998)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:163)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:146)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:136)
+	at org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporter.importToWorkspace(MavenProjectImporter.java:228)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:115)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:104)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:195)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: OK
+Contains: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz overlaps the workspace location: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz/workspace
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2020-10-25 04:13:10.908
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2020-10-25 04:13:10.908
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2020-10-25 04:13:10.908
+!MESSAGE /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz overlaps the workspace location: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:10.927
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:10.944
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:10.955
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:10.957
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:10.957
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:11.478
+!MESSAGE Reconciled 0. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:11.966
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:11.967
+!MESSAGE 1 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:11.970
+!MESSAGE Validated 1. Took 89 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:14.043
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:14.466
+!MESSAGE Reconciled 0. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:14.912
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:14.913
+!MESSAGE 1 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:14.913
+!MESSAGE Validated 1. Took 42 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:16.044
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:16.054
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:16.374
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:16.465
+!MESSAGE Reconciled 0. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:16.700
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:16.708
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:17.114
+!MESSAGE Reconciled 0. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:17.136
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:17.140
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:17.288
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:17.546
+!MESSAGE Reconciled 0. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:17.993
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:17.993
+!MESSAGE 3 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:17.994
+!MESSAGE Validated 1. Took 42 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:18.051
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:18.461
+!MESSAGE Reconciled 0. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:18.536
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:18.539
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:18.660
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:18.674
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:18.676
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:18.748
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:19.084
+!MESSAGE Reconciled 0. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:19.155
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:19.158
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:19.187
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:19.562
+!MESSAGE Reconciled 0. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:19.666
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:19.996
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:19.996
+!MESSAGE 3 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:19.997
+!MESSAGE Validated 1. Took 33 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:21.052
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:21.057
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:21.093
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:21.466
+!MESSAGE Reconciled 0. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:21.511
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:21.904
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:21.904
+!MESSAGE 3 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:21.905
+!MESSAGE Validated 1. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:21.928
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:21.930
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:21.996
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:22.101
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:22.103
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:22.161
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:22.511
+!MESSAGE Reconciled 0. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:22.619
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:22.941
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:22.942
+!MESSAGE 3 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:22.942
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:23.250
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:23.253
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:23.658
+!MESSAGE Reconciled 0. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:24.092
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:24.092
+!MESSAGE 3 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:24.092
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:25.978
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:26.301
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:26.326
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:26.385
+!MESSAGE Reconciled 0. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:26.813
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:26.813
+!MESSAGE 1 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:26.814
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:41.327
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:41.331
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:41.365
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:41.370
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2020-10-25 04:13:41.525 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:42.657
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:42.812
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:42.842
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:42.896
+!MESSAGE Initializing Java Language Server 0.64.0.202010250906
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:42.905
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:42.906
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.project.getSemanticTokensLegend, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:42.919
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:43.873
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-10-25 04:13:43.943
+!MESSAGE Initialization failed 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.create(ProjectConfigurationManager.java:998)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:163)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:146)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:136)
+	at org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporter.importToWorkspace(MavenProjectImporter.java:228)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:115)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:104)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:195)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: OK
+Contains: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz overlaps the workspace location: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz/workspace
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2020-10-25 04:13:43.944
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2020-10-25 04:13:43.944
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2020-10-25 04:13:43.944
+!MESSAGE /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz overlaps the workspace location: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:44.045
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:44.062
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:44.062
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:44.065
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:44.065
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:44.588
+!MESSAGE Reconciled 0. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:45.064
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:45.064
+!MESSAGE 1 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:45.067
+!MESSAGE Validated 1. Took 75 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:52.982
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:52.988
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:53.025
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:53.031
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2020-10-25 04:13:53.170 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:54.209
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:54.348
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:54.373
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:54.417
+!MESSAGE Initializing Java Language Server 0.64.0.202010250906
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:54.424
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:54.424
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.project.getSemanticTokensLegend, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:54.435
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:55.307
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-10-25 04:13:55.375
+!MESSAGE Initialization failed 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.create(ProjectConfigurationManager.java:998)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:163)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:146)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:136)
+	at org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporter.importToWorkspace(MavenProjectImporter.java:228)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:115)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:104)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:195)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: OK
+Contains: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz overlaps the workspace location: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz/workspace
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2020-10-25 04:13:55.375
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2020-10-25 04:13:55.375
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2020-10-25 04:13:55.375
+!MESSAGE /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz overlaps the workspace location: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:55.454
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:55.471
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:55.482
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:55.485
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:55.485
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:56.007
+!MESSAGE Reconciled 0. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:56.480
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:56.481
+!MESSAGE 1 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:13:56.484
+!MESSAGE Validated 1. Took 74 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:06.408
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:06.415
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:06.452
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:06.458
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2020-10-25 04:14:06.599 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:07.413
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:07.526
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:07.549
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:07.554
+!MESSAGE Initializing Java Language Server 0.64.0.202010250906
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:07.560
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:07.560
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.project.getSemanticTokensLegend, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:07.571
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:08.378
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-10-25 04:14:08.469
+!MESSAGE Initialization failed 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.create(ProjectConfigurationManager.java:998)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:163)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:146)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:136)
+	at org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporter.importToWorkspace(MavenProjectImporter.java:228)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:115)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:104)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:195)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: OK
+Contains: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz overlaps the workspace location: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz/workspace
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2020-10-25 04:14:08.470
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2020-10-25 04:14:08.470
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2020-10-25 04:14:08.470
+!MESSAGE /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz overlaps the workspace location: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:08.498
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:08.502
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:08.512
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:08.514
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:08.515
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:09.001
+!MESSAGE Reconciled 0. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:09.475
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:09.476
+!MESSAGE 1 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:09.478
+!MESSAGE Validated 1. Took 73 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:10.232
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:22.157
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:22.160
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:22.197
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:22.202
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2020-10-25 04:14:40.595 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:41.358
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:41.457
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:41.478
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:41.483
+!MESSAGE Initializing Java Language Server 0.64.0.202010250906
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:41.489
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:41.489
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.project.getSemanticTokensLegend, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:41.499
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:42.337
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-10-25 04:14:42.415
+!MESSAGE Initialization failed 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.create(ProjectConfigurationManager.java:998)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:163)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:146)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:136)
+	at org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporter.importToWorkspace(MavenProjectImporter.java:228)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:115)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:104)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:195)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: OK
+Contains: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz overlaps the workspace location: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz/workspace
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2020-10-25 04:14:42.416
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2020-10-25 04:14:42.416
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2020-10-25 04:14:42.416
+!MESSAGE /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz overlaps the workspace location: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:42.519
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:42.524
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:42.524
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:42.527
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:42.527
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:43.036
+!MESSAGE Reconciled 0. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:43.523
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:43.524
+!MESSAGE 1 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:14:43.527
+!MESSAGE Validated 1. Took 89 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:17:13.956
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:17:13.969
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:17:14.023
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:17:14.031
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2020-10-25 04:17:14.185 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  --data /Users/tyeporter/var/folders/_0/99fyb8v16dn3p75d_bdp181m0000gn/T//jdt_ws
+Command-line arguments:  --data /Users/tyeporter/var/folders/_0/99fyb8v16dn3p75d_bdp181m0000gn/T//jdt_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:17:15.024
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:17:15.139
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:17:15.162
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:17:15.167
+!MESSAGE Initializing Java Language Server 0.64.0.202010250906
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:17:15.173
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:17:15.174
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.project.getSemanticTokensLegend, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:17:15.183
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:17:16.085
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-10-25 04:17:16.150
+!MESSAGE Initialization failed 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.create(ProjectConfigurationManager.java:998)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:163)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:146)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:136)
+	at org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporter.importToWorkspace(MavenProjectImporter.java:228)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:115)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:104)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:195)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: OK
+Contains: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz overlaps the workspace location: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz/workspace
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2020-10-25 04:17:16.151
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2020-10-25 04:17:16.151
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2020-10-25 04:17:16.151
+!MESSAGE /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz overlaps the workspace location: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:17:16.208
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:17:16.212
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:17:16.223
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:17:16.224
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:17:16.225
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:17:16.716
+!MESSAGE Reconciled 0. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:17:17.193
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:17:17.194
+!MESSAGE 1 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:17:17.197
+!MESSAGE Validated 1. Took 75 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:17:19.794
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:17:20.676
+!MESSAGE >> document/hover
+!SESSION 2020-10-25 04:21:33.425 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:34.235
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:34.347
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:34.370
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:34.375
+!MESSAGE Initializing Java Language Server 0.64.0.202010250906
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:34.381
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:34.381
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.project.getSemanticTokensLegend, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:34.391
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:35.213
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-10-25 04:21:35.290
+!MESSAGE Initialization failed 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.create(ProjectConfigurationManager.java:998)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:163)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:146)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:136)
+	at org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporter.importToWorkspace(MavenProjectImporter.java:228)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:115)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:104)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:195)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: OK
+Contains: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz overlaps the workspace location: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz/workspace
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2020-10-25 04:21:35.291
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2020-10-25 04:21:35.291
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2020-10-25 04:21:35.291
+!MESSAGE /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz overlaps the workspace location: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:35.317
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:35.321
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:35.332
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:35.334
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:35.334
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:35.827
+!MESSAGE Reconciled 0. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:36.307
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:36.308
+!MESSAGE 1 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:36.312
+!MESSAGE Validated 1. Took 79 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:43.889
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:43.901
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:44.308
+!MESSAGE Reconciled 0. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:44.764
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:44.765
+!MESSAGE 2 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:44.765
+!MESSAGE Validated 1. Took 53 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:45.240
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:45.266
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:47.289
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:47.504
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:47.523
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:47.702
+!MESSAGE Reconciled 0. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:48.143
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:48.143
+!MESSAGE 1 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:48.144
+!MESSAGE Validated 1. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:51.266
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:51.814
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:52.155
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:52.162
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:52.227
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:52.564
+!MESSAGE Reconciled 0. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:53.005
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:53.006
+!MESSAGE 1 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:53.006
+!MESSAGE Validated 1. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:53.011
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:53.018
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:53.423
+!MESSAGE Reconciled 0. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:53.862
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:53.862
+!MESSAGE 1 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:53.863
+!MESSAGE Validated 1. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:57.012
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:57.520
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:57.530
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:57.933
+!MESSAGE Reconciled 0. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:57.992
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:58.029
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:58.367
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:58.367
+!MESSAGE 1 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:58.368
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:21:59.015
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:00.141
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:00.552
+!MESSAGE Reconciled 0. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:00.751
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:00.757
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:00.972
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:01.130
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:01.132
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:01.235
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:01.523
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:01.525
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:01.601
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:01.932
+!MESSAGE Reconciled 0. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:02.051
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:02.368
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:02.368
+!MESSAGE 3 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:02.369
+!MESSAGE Validated 1. Took 33 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:03.774
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:03.791
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:04.178
+!MESSAGE Reconciled 0. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:04.605
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:04.606
+!MESSAGE 3 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:04.606
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:04.758
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:04.786
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:05.164
+!MESSAGE Reconciled 0. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:05.374
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:05.405
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:05.780
+!MESSAGE Reconciled 0. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:06.204
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:06.204
+!MESSAGE 3 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:06.205
+!MESSAGE Validated 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:07.011
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:07.020
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:07.465
+!MESSAGE Reconciled 0. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:07.890
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:07.890
+!MESSAGE 3 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:07.891
+!MESSAGE Validated 1. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:08.062
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:08.074
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:08.470
+!MESSAGE Reconciled 0. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:08.890
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:08.890
+!MESSAGE 3 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:08.891
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:10.563
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:10.974
+!MESSAGE Reconciled 0. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:11.407
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:11.407
+!MESSAGE 2 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:11.408
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:12.372
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:12.783
+!MESSAGE Reconciled 0. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:13.211
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:13.212
+!MESSAGE 1 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:13.212
+!MESSAGE Validated 1. Took 24 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:14.760
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:19.896
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:23.523
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:23.606
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:24.015
+!MESSAGE Reconciled 0. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:24.123
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:24.442
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:24.442
+!MESSAGE 1 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:24.465
+!MESSAGE begin problem for /FizzBuzz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:24.465
+!MESSAGE 1 problems reported for /FizzBuzz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:24.466
+!MESSAGE Validated 2. Took 49 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:28.854
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:28.857
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:28.876
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:29.265
+!MESSAGE Reconciled 0. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:29.693
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:29.693
+!MESSAGE 1 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:29.721
+!MESSAGE begin problem for /FizzBuzz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:29.722
+!MESSAGE 1 problems reported for /FizzBuzz.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:29.723
+!MESSAGE Validated 2. Took 55 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:32.575
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:34.502
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:36.953
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:40.408
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:40.955
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:49.847
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:22:52.496
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:25:00.163
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:25:00.622
+!MESSAGE Reconciled 0. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:25:01.079
+!MESSAGE begin problem for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:25:01.080
+!MESSAGE 1 problems reported for /FizzBuzzTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:25:01.081
+!MESSAGE Validated 1. Took 55 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:25:05.299
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:25:05.302
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:25:05.386
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:25:05.394
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:25:35.668
+!MESSAGE Parent process stopped running, forcing server exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:25:35.670
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 04:25:35.689
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="com.tyeporter.greeting.GreetingTest" time="0.001" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="com.tyeporter.greeting.GreetingTest" time="0.002" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="14.0.2+12-46"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/tyeporter/Desktop/Greeting"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/Greeting"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="test" value="com.tyeporter.greeting.GreetingTest"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/tyeporter/Desktop/Greeting"/>
+    <property name="user.dir" value="/Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/Greeting"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="14.0.2+12-46"/>
     <property name="os.arch" value="x86_64"/>
@@ -59,7 +59,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="com.tyeporter.greeting.GreetingTest" name="com.tyeporter.greeting.GreetingTest.testGreet_GivenName_GreetsPerson" time="0.001"/>
+  <testcase classname="com.tyeporter.greeting.GreetingTest" name="com.tyeporter.greeting.GreetingTest.testGreet_GivenName_GreetsPerson" time="0.002"/>
   <testcase classname="com.tyeporter.greeting.GreetingTest" name="com.tyeporter.greeting.GreetingTest.testGreet_GivenNull_GreetsFriend" time="0"/>
   <testcase classname="com.tyeporter.greeting.GreetingTest" name="com.tyeporter.greeting.GreetingTest.testGreet_GivenUppercaseName_GreetPersonWithUppercase" time="0"/>
   <testcase classname="com.tyeporter.greeting.GreetingTest" name="com.tyeporter.greeting.GreetingTest.testGreet_GivenTwoNames_GreetsTwoPeople" time="0"/>

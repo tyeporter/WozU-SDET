@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>jdt.ls-java-project</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/com/tyeporter/exesandohsproblem/App.java</name>
+			<type>1</type>
+			<location>//Users/tyeporter/Documents/GitHub/WozU-SDET/codewars/week 1/day 1/ExesAndOhsProblem/src/main/java/com/tyeporter/exesandohsproblem/App.java</location>
+		</link>
+		<link>
+			<name>src/com/tyeporter/exesandohsproblem/AppTest.java</name>
+			<type>1</type>
+			<location>//Users/tyeporter/Documents/GitHub/WozU-SDET/codewars/week 1/day 1/ExesAndOhsProblem/src/test/java/com/tyeporter/exesandohsproblem/AppTest.java</location>
+		</link>
+	</linkedResources>
+</projectDescription>

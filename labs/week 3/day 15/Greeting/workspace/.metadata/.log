@@ -1,0 +1,177 @@
+!SESSION 2020-10-25 02:21:20.538 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:21:21.696
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:21:21.897
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:21:21.922
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:21:21.981
+!MESSAGE Initializing Java Language Server 0.64.0.202010221618
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:21:21.991
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:21:21.991
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.project.getSemanticTokensLegend, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:21:22.002
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:21:22.004
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:21:22.747
+!MESSAGE Default VM Install changed from  null to com.oracle.java.14.0.2.jdk-/Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:21:22.753
+!MESSAGE defaultVMInstallChanged -> force update of jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:21:22.780
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:21:23.329
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-10-25 02:21:23.375
+!MESSAGE Initialization failed 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.create(ProjectConfigurationManager.java:998)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:163)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:146)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:136)
+	at org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporter.importToWorkspace(MavenProjectImporter.java:228)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:115)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:104)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:195)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: OK
+Contains: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/Greeting overlaps the workspace location: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/Greeting/workspace
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2020-10-25 02:21:23.375
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2020-10-25 02:21:23.376
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2020-10-25 02:21:23.376
+!MESSAGE /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/Greeting overlaps the workspace location: /Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/Greeting/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:21:23.431
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:21:23.453
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:21:23.465
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:21:23.467
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:21:23.468
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:21:24.130
+!MESSAGE Reconciled 0. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:21:24.791
+!MESSAGE begin problem for /Greeting.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:21:24.792
+!MESSAGE TODO: Handle multiple mixed names... is of type Task
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:21:24.792
+!MESSAGE 2 problems reported for /Greeting.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:21:24.795
+!MESSAGE Validated 1. Took 263 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:22:03.767
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:22:03.788
+!MESSAGE Clearing problems for /Greeting.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:22:03.828
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:22:04.264
+!MESSAGE Reconciled 0. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:22:04.715
+!MESSAGE begin problem for /GreetingTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:22:04.716
+!MESSAGE TODO: Write tests for multiple mixed (uppercase and lowercase) names... is of type Task
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:22:04.716
+!MESSAGE 2 problems reported for /GreetingTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:22:04.716
+!MESSAGE Validated 1. Took 49 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:22:06.239
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:22:10.479
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:22:10.493
+!MESSAGE Clearing problems for /GreetingTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:22:10.555
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:22:10.977
+!MESSAGE Reconciled 0. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:22:11.453
+!MESSAGE begin problem for /Greeting.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:22:11.454
+!MESSAGE TODO: Handle multiple mixed names... is of type Task
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:22:11.454
+!MESSAGE 2 problems reported for /Greeting.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:22:11.454
+!MESSAGE Validated 1. Took 74 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:33:24.716
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:33:28.029
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:36:42.978
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:36:43.004
+!MESSAGE Clearing problems for /Greeting.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:40:39.354
+!MESSAGE Parent process stopped running, forcing server exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:40:39.358
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-10-25 02:40:39.424
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-10-25 02:40:40.044
+!MESSAGE The workspace will exit with unsaved changes in this session.

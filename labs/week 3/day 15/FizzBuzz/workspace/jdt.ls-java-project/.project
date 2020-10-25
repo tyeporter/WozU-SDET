@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>jdt.ls-java-project</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/com/tyeporter/fizzbuzz/FizzBuzz.java</name>
+			<type>1</type>
+			<location>/Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz/src/main/java/com/tyeporter/fizzbuzz/FizzBuzz.java</location>
+		</link>
+		<link>
+			<name>src/com/tyeporter/fizzbuzz/FizzBuzzTest.java</name>
+			<type>1</type>
+			<location>//Users/tyeporter/Documents/GitHub/WozU-SDET/labs/week 3/day 15/FizzBuzz/src/test/java/com/tyeporter/fizzbuzz/FizzBuzzTest.java</location>
+		</link>
+	</linkedResources>
+</projectDescription>
