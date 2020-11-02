@@ -11,7 +11,7 @@ public class XO {
 				case 'x':
 					numberOfExes++;
 					break;
-				case 'o': 
+				case 'o':
 					numberOfOhs++;
 					break;
 				default:

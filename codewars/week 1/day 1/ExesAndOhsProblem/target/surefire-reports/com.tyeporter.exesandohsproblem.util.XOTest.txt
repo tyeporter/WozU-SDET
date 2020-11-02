@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: com.tyeporter.exesandohsproblem.util.XOTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec <<< FAILURE!
+com.tyeporter.exesandohsproblem.util.XOTest.testGetXO_GivenNoExesAndOhs_ReturnsTrue()  Time elapsed: 0.009 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:162)
+	at com.tyeporter.exesandohsproblem.util.XOTest.testGetXO_GivenNoExesAndOhs_ReturnsTrue(XOTest.java:19)
+

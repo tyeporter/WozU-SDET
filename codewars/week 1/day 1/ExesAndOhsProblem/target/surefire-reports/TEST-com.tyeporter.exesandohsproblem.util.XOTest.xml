@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="com.tyeporter.exesandohsproblem.util.XOTest" time="0.001" errors="0" skipped="0">
+<testsuite tests="3" failures="1" name="com.tyeporter.exesandohsproblem.util.XOTest" time="0.009" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="14.0.2+12-46"/>
@@ -59,7 +59,15 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="com.tyeporter.exesandohsproblem.util.XOTest" name="com.tyeporter.exesandohsproblem.util.XOTest.testGetXO_GivenNoExesAndOhs_ReturnsTrue" time="0.001"/>
+  <testcase classname="com.tyeporter.exesandohsproblem.util.XOTest" name="com.tyeporter.exesandohsproblem.util.XOTest.testGetXO_GivenNoExesAndOhs_ReturnsTrue" time="0.009">
+    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;true&gt; but was: &lt;false&gt;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:162)
+	at com.tyeporter.exesandohsproblem.util.XOTest.testGetXO_GivenNoExesAndOhs_ReturnsTrue(XOTest.java:19)
+</failure>
+  </testcase>
   <testcase classname="com.tyeporter.exesandohsproblem.util.XOTest" name="com.tyeporter.exesandohsproblem.util.XOTest.testGetXO_GivenEqualExesAndOhs_WithMixedCases_ReturnsTrue" time="0"/>
   <testcase classname="com.tyeporter.exesandohsproblem.util.XOTest" name="com.tyeporter.exesandohsproblem.util.XOTest.testGetXO_GivenEqualExesAndOhs_ReturnsTrue" time="0"/>
 </testsuite>
